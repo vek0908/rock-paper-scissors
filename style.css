@@ -99,7 +99,7 @@ img {
 /* Classes applied by JavaScript */
 
 .green-glow {
-    background-image: url(./images/smile-regular.svg);
+    background-image: url(./images/face-smile-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,7 +107,7 @@ img {
 }
 
 .gray-glow {
-    background-image: url(./images/meh-regular.svg);
+    background-image: url(./images/face-meh-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +115,7 @@ img {
 }
 
 .red-glow {
-    background-image: url(./images/frown-regular.svg);
+    background-image: url(./images/face-frown-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,21 +123,21 @@ img {
 }
 
 .rock {
-    background-image: url(./images/hand-rock-regular.svg);
+    background-image: url(./images/hand-back-fist-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 130px;
 }
 
 .paper {
-    background-image: url(./images/hand-paper-regular.svg);
+    background-image: url(./images/hand-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 130px;
 }
 
 .scissors {
-    background-image: url(./images/hand-scissors-regular.svg);
+    background-image: url(./images/hand-scissors-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 130px;

@@ -16,7 +16,6 @@ let computerScore = 0;
 function victory() {
   userScore++;
   userScore_p.innerHTML = userScore;
-  computerScore_p.innerHTML = computerScore;
   result_div.classList.add("green-glow");
   setTimeout(function() { result_div.classList.remove("green-glow") }, 1500);
 }
@@ -28,7 +27,6 @@ function draw() {
 
 function defeat() {
   computerScore++;
-  userScore_p.innerHTML = userScore;
   computerScore_p.innerHTML = computerScore;
   result_div.classList.add("red-glow");
   setTimeout(function() { result_div.classList.remove("red-glow") }, 1500);
@@ -57,7 +55,7 @@ function displayComputerChoice(computerChoice) {
     computerField_div.classList.add("paper");
     setTimeout(function() { computerField_div.classList.remove("paper") }, 1500);
   } else if (computerChoice == "scissors") {
-    computerField_div.classList.add("paper");
+    computerField_div.classList.add("scissors");
     setTimeout(function() { computerField_div.classList.remove("scissors") }, 1500);
   } else {
     console.log("Computer can't make it's choice for some reason!");
